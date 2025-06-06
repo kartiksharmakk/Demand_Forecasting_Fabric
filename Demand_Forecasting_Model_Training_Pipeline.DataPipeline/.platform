@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Demand_Forecasting_Model_Training_Pipeline"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9889183a-44b4-b7ec-4a69-b5dd30a6634c"
+  }
+}

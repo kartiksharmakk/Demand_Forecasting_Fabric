@@ -36,6 +36,8 @@ Fetches a raw CSV file containing historical sales data directly from a GitHub r
 3. Notebook Activity
 Executes the training notebook that preprocesses the data and trains a machine learning model.
 
+<img src="https://raw.githubusercontent.com/kartiksharmakk/Demand_Forecasting_Fabric/main/Screenshots/pipeline.png" width="100%" height="100%">
+
 ## Data Engineering & Preparation
 Inside the notebook, the following steps were taken to prepare the dataset for training:
 
@@ -70,7 +72,10 @@ To manage model lifecycle and track performance, MLflow was integrated within th
 
 6. Trained the Random Forest Regressor using a PySpark pipeline
 
+<img src="https://raw.githubusercontent.com/kartiksharmakk/Demand_Forecasting_Fabric/main/Screenshots/training_notebook.png" width="100%" height="100%">
 
+
+<img src="https://raw.githubusercontent.com/kartiksharmakk/Demand_Forecasting_Fabric/main/Screenshots/model_experiment.png" width="100%" height="100%">
 
 ## Model Deployment and Reuse
 In a separate inference notebook, I reused the registered model via MLflow’s model URI:
@@ -84,6 +89,8 @@ In a separate inference notebook, I reused the registered model via MLflow’s m
 
 📈 Predicted Units Sold in Week 39, 2011: quantity_sold 
 
+<img src="https://raw.githubusercontent.com/kartiksharmakk/Demand_Forecasting_Fabric/main/Screenshots/prediction.png" width="100%" height="100%">
+
 ## Version Control with GitHub Integration
 To ensure code versioning, collaboration, and traceability, I linked my Microsoft Fabric workspace to GitHub:
 
@@ -95,6 +102,7 @@ To ensure code versioning, collaboration, and traceability, I linked my Microsof
 
 #### This integration streamlined the development lifecycle and ensured that model and data engineering workflows were collaboratively developed and source-controlled.
 
+<img src="https://raw.githubusercontent.com/kartiksharmakk/Demand_Forecasting_Fabric/main/Screenshots/workspace.png" width="100%" height="100%">
 
 ## Conclusion
 This end-to-end project illustrates the powerful synergy of Microsoft Fabric, Lakehouse architecture, PySpark ML, and MLflow:
